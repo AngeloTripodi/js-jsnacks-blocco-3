@@ -1,9 +1,9 @@
 const divElementGreen = document.getElementById('green');
 const divElementRed = document.getElementById('red');
 
-function createNewElementP(array,[i]){
+function createNewElementP(list,[index]){
     const newElement = document.createElement('p');
-    newElement.innerText = array[i];
+    newElement.innerText = list[index];
     return newElement;
 }
 
